@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Duka Online - Shopping Website</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="wrapper">
+
+	
+	<div id="header">
+		<h1>Duka Online</h1>
+		<p class="tagline">Quality products at affordable prices</p>
+	</div>
+
+	
+	<div id="nav">
+		<a href="#home">Home</a>
+		<a href="#products">Products</a>
+		<a href="#offers">Offers</a>
+		<a href="#order">Order</a>
+		<a href="#contact">Contact</a>
+	</div>
+
+	<div id="home" class="section">
+		<h2>Welcome to Our Shop</h2>
+		<p>
+			Duka Online brings you electronics, clothing and household items
+			delivered right to your door. Browse our products below and place
+			your order using the order form.
+		</p>
+	</div>
+
+	<div id="products" class="section">
+		<h2>Our Products</h2>
+
+		<table class="product-table" border="1" cellpadding="10" cellspacing="10">
+			<tr>
+				<td class="product">
+					<img src="images/phone.jpg" alt="vintage phone" width="150" height="150">
+					<h3>Smartphone</h3>
+					<p class="price">KSh 15,000</p>
+					<a href="#order" class="buy">Buy Now</a>
+				</td>
+				<td class="product">
+					<img src="images/laptop.jpg" alt="Laptop" width="150" height="150">
+					<h3>Laptop</h3>
+					<p class="price">KSh 45,000</p>
+					<a href="#order" class="buy">Buy Now</a>
+				</td>
+				<td class="product">
+					<img src="images/headphones.jpg" alt="Headphones" width="150" height="150">
+					<h3>Headphones</h3>
+					<p class="price">KSh 2,500</p>
+					<a href="#order" class="buy">Buy Now</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="product">
+					<img src="images/shoes.jpg" alt="Sneakers" width="150" height="150">
+					<h3>Sneakers</h3>
+					<p class="price">KSh 3,200</p>
+					<a href="#order" class="buy">Buy Now</a>
+				</td>
+				<td class="product">
+					<img src="images/tshirt.jpg" alt="T-Shirt" width="150" height="150">
+					<h3>T-Shirt</h3>
+					<p class="price">KSh 800</p>
+					<a href="#order" class="buy">Buy Now</a>
+				</td>
+				<td class="product">
+					<img src="images/watch.jpg" alt="Wrist Watch" width="150" height="150">
+					<h3>Wrist Watch</h3>
+					<p class="price">KSh 4,000</p>
+					<a href="#order" class="buy">Buy Now</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="offers" class="section">
+		<h2>Special Offers</h2>
+
+		<table class="offer-table" border="1" cellpadding="8">
+			<tr>
+				<th>Product</th>
+				<th>Old Price</th>
+				<th>New Price</th>
+			</tr>
+			<tr>
+				<td>Smartphone</td>
+				<td class="old-price">KSh 18,000</td>
+				<td>KSh 15,000</td>
+			</tr>
+			<tr>
+				<td>Headphones</td>
+				<td class="old-price">KSh 3,000</td>
+				<td>KSh 2,500</td>
+			</tr>
+			<tr>
+				<td>Sneakers</td>
+				<td class="old-price">KSh 4,000</td>
+				<td>KSh 3,200</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="order" class="section">
+		<h2>Place Your Order</h2>
+
+		<form>
+			<table class="form-table" cellpadding="5">
+				<tr>
+					<td>Full Name:</td>
+					<td><input type="text" name="fullname"></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="text" name="email"></td>
+				</tr>
+				<tr>
+					<td>Phone:</td>
+					<td><input type="text" name="phone"></td>
+				</tr>
+				<tr>
+					<td>Product:</td>
+					<td>
+						<select name="product">
+							<option>Smartphone</option>
+							<option>Laptop</option>
+							<option>Headphones</option>
+							<option>Sneakers</option>
+							<option>T-Shirt</option>
+							<option>Wrist Watch</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Quantity:</td>
+					<td><input type="text" name="quantity" size="5"></td>
+				</tr>
+				<tr>
+					<td>Payment:</td>
+					<td>
+						<input type="radio" name="payment" value="mpesa"> M-Pesa
+						<input type="radio" name="payment" value="cash"> Cash on Delivery
+					</td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td><textarea name="address" rows="3" cols="30"></textarea></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="Order Now" class="btn">
+						<input type="reset" value="Clear" class="btn">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+	<div id="contact" class="section">
+		<h2>Contact Us</h2>
+		<p>Phone: 07********</p>
+		<p>Email: info@dukaonline.co.ke</p>
+		<p>Location: Nakuru, Kenya</p>
+	</div>
+
+	<div id="footer">
+		<p>&copy; 2026 Duka Online. All rights reserved.</p>
+	</div>
+
+</div>
+
+</body>
+</html>

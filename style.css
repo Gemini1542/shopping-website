@@ -1,0 +1,169 @@
+body
+{
+	background-color: #eeeeee;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper
+{
+	width: 900px;
+	margin: 0 auto;
+	background-color: white;
+	border: 1px solid #cccccc;
+}
+
+#header
+{
+	background-color: #1a5276;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+#header h1
+{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.tagline
+{
+	font-style: italic;
+	word-spacing: 4px;
+	margin: 5px 0 0 0;
+}
+
+#nav
+{
+	background-color: #f39c12;
+	text-align: center;
+	padding: 12px;
+	white-space: nowrap;
+}
+
+#nav a
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 8px 15px;
+	margin: 0 5px;
+}
+
+#nav a:hover
+{
+	background-color: #1a5276;
+}
+
+.section
+{
+	margin: 20px;
+	padding: 15px;
+	border: 1px solid #dddddd;
+}
+
+h2
+{
+	color: #1a5276;
+	text-transform: capitalize;
+	border-bottom: 2px solid #f39c12;
+	padding-bottom: 5px;
+}
+
+p
+{
+	line-height: 1.6;
+}
+
+.product-table
+{
+	width: 100%;
+	border-color: #dddddd;
+}
+
+.product
+{
+	text-align: center;
+	background-color: #fafafa;
+}
+
+.product h3
+{
+	color: #333333;
+	margin: 10px 0 5px 0;
+}
+
+.price
+{
+	color: #c0392b;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.buy
+{
+	background-color: #1a5276;
+	color: white;
+	text-decoration: none;
+	padding: 6px 12px;
+	border: 2px solid #1a5276;
+}
+
+.buy:hover
+{
+	background-color: white;
+	color: #1a5276;
+}
+
+.offer-table
+{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.offer-table th
+{
+	background-color: #1a5276;
+	color: white;
+}
+
+.old-price
+{
+	text-decoration: line-through;
+	color: gray;
+}
+
+.form-table
+{
+	margin: 0 auto;
+}
+
+input, select, textarea
+{
+	padding: 5px;
+	border: 1px solid #999999;
+}
+
+.btn
+{
+	background-color: #f39c12;
+	color: white;
+	font-weight: bold;
+	padding: 8px 15px;
+	border: none;
+}
+
+#footer
+{
+	background-color: #1a5276;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	letter-spacing: 1px;
+}
